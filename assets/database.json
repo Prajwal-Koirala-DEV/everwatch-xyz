@@ -1,1 +1,24 @@
-
+{
+    "names": [
+        "John Doe",
+        "Jane Doe",
+        "Jack Doe"
+    ],
+    "ages": [
+        "09/01/2000",
+        "09/01/2001"
+    ],
+    "emails": [
+        "johndoe@example.com",
+        "janedoe@example.com",
+        "jackdoe@example.com"
+    ],
+    "phones": [
+        "1234567890",
+        "0987654321"
+    ],
+    "addresses": [
+        "123 Main St",
+        "456 Main St"
+    ]
+}
