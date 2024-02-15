@@ -1,14 +1,15 @@
 {
-  "names": ["John Doe", "Jane Doe", "Jack Doe"],
-  "dobs": ["09/01/2000", "09/01/2001"],
-  "emails": [
-    "johndoe@example.com",
-    "janedoe@example.com",
-    "jackdoe@example.com"
-  ],
-  "phones": ["1234567890", "0987654321"],
-  "addresses": ["123 Main St", "456 Main St"],
-  "ssns": ["123-45-6789", "987-65-4321"],
-  "passport_numbers": ["123456789", "987654321"],
-  "identity_numbers": ["123456789", "987654321"]
+  "individuals": [
+    {
+      "names": ["John Doe"],
+      "dob": "2000-09-01",
+      "emails": ["johndoe@example.com"],
+      "phones": ["1234567890"],
+      "addresses": ["123 Main St"],
+      "ssns": ["123-45-6789"],
+      "passport_numbers": ["123456789"],
+      "driver_license_numbers": ["D123456789"],
+      "national_id_number": "N123456789"
+    }
+  ]
 }
