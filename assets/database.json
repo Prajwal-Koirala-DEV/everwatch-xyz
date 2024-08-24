@@ -8,6 +8,7 @@
         "phones": ["+1-123-456-7890", "+1-000-000-0000"]
       },
       "addresses": ["123 Main St", "456 Business Rd"],
+      "languages": ["English", "Spanish"],
       "identification": {
         "ssn": ["123-45-6789", "000-00-0000"],
         "passport_number": ["123456789", "012345678"],
@@ -49,52 +50,49 @@
         "gender": "Male",
         "allergies": ["apple", "banana"]
       },
-      "languages": ["English", "Spanish"],
       "education": [
         {
           "institution": "University of Example",
           "degree": "Bachelor of Science",
           "field_of_study": "Computer Science",
-          "date_started": "2018-09-01",
-          "date_completed": "2022-06-01"
+          "study_period": {
+            "beginning": "2018-09-01",
+            "completion": "2022-06-01"
+          }
         },
         {
           "institution": "Example High School",
           "degree": "High School Diploma",
           "field_of_study": "General Studies",
-          "date_started": "2014-09-01",
-          "date_completed": "2018-06-01"
+          "study_period": {
+            "beginning": "2014-09-01",
+            "completion": "2018-06-01"
+          }
         }
       ],
       "occupations": [
         {
           "company": "Tech Startups LLC",
-          "details": {
-            "job_title": "Junior Developer",
-            "employment_period": {
-              "beginning": "2022-01-15",
-              "completion": "2024-01-14"
-            }
+          "job_title": "Junior Developer",
+          "employment_period": {
+            "beginning": "2022-01-15",
+            "completion": "2024-01-14"
           }
         },
         {
           "company": "Innovate Solutions Inc.",
-          "details": {
-            "job_title": "Intern",
-            "employment_period": {
-              "beginning": "2021-06-01",
-              "completion": "2021-12-31"
-            }
+          "job_title": "Intern",
+          "employment_period": {
+            "beginning": "2021-06-01",
+            "completion": "2021-12-31"
           }
         },
         {
           "company": "Self-Employed",
-          "details": {
-            "job_title": "Freelance Web Developer",
-            "employment_period": {
-              "beginning": "2020-03-01",
-              "completion": "2021-05-31"
-            }
+          "job_title": "Freelance Web Developer",
+          "employment_period": {
+            "beginning": "2020-03-01",
+            "completion": "2021-05-31"
           }
         }
       ]
