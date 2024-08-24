@@ -1,15 +1,29 @@
 {
   "individuals": [
     {
-      "names": ["John Doe"],
-      "dob": "2000-09-01",
-      "emails": ["johndoe@example.com"],
-      "phones": ["1234567890"],
-      "addresses": ["123 Main St"],
-      "ssns": ["123-45-6789"],
-      "passport_numbers": ["123456789"],
-      "driver_license_numbers": ["D123456789"],
-      "national_id_number": "N123456789"
+      "names": [
+        "John Doe",
+        "Jonathan Doe"
+      ],
+      "dob": [
+        "2000-09-01",
+        "1999-12-31"
+      ],
+      "contact": {
+        "emails": ["johndoe@example.com"],
+        "phones": ["123-456-7890"]
+      },
+      "addresses": [
+        "123 Main St",
+        "456 Business Rd",
+        "789 Another St"
+      ],
+      "identification": {
+        "ssn": "123-45-6789",
+        "passport_number": "123456789",
+        "driver_license_number": "D123456789",
+        "national_id_number": "N123456789"
+      }
     }
   ]
 }
