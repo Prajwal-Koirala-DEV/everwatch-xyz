@@ -1,29 +1,103 @@
 {
   "individuals": [
     {
-      "names": [
-        "John Doe",
-        "Jonathan Doe"
-      ],
-      "dob": [
-        "2000-09-01",
-        "1999-12-31"
-      ],
+      "names": ["John Doe", "Jonathan Doe"],
+      "dob": ["2000-09-01", "1999-12-31"],
       "contact": {
-        "emails": ["johndoe@example.com"],
+        "emails": ["johndoe@example.com", "JonathanDoe@example.com"],
         "phones": ["123-456-7890"]
       },
-      "addresses": [
-        "123 Main St",
-        "456 Business Rd",
-        "789 Another St"
-      ],
+      "addresses": ["123 Main St", "456 Business Rd"],
       "identification": {
-        "ssn": "123-45-6789",
-        "passport_number": "123456789",
-        "driver_license_number": "D123456789",
-        "national_id_number": "N123456789"
-      }
+        "ssn": ["123-45-6789", "000-00-0000"],
+        "passport_number": ["123456789", "012345678"],
+        "driver_license_number": ["D123456789"],
+        "national_id_number": ["N123456789", "012345"],
+        "nationalities": ["American", "Canadian"]
+      },
+      "social_media": [
+        "https://facebook.com/johndoe",
+        "https://twitter.com/johndoe",
+        "https://linkedin.com/in/johndoe",
+        "https://instagram.com/johndoe",
+        "https://github.com/johndoe",
+        "https://gitlab.com/johndoe",
+        "https://bitbucket.org/johndoe",
+        "https://youtube.com/user/johndoe",
+        "https://tiktok.com/@johndoe",
+        "https://pinterest.com/johndoe",
+        "https://johndoe.tumblr.com",
+        "https://snapchat.com/add/johndoe",
+        "https://reddit.com/user/johndoe",
+        "https://quora.com/profile/John-Doe",
+        "https://vk.com/johndoe",
+        "https://flickr.com/photos/johndoe",
+        "https://medium.com/@johndoe",
+        "https://johndoe.wordpress.com",
+        "https://johndoe.blogspot.com",
+        "https://weibo.com/johndoe",
+        "https://mix.com/johndoe",
+        "https://discord.com/users/johndoe",
+        "https://johndoe.slack.com",
+        "https://steamcommunity.com/id/johndoe",
+        "https://twitch.tv/johndoe",
+        "https://yelp.com/user_details?userid=johndoe",
+        "https://johndoe.github.io"
+      ],
+      "health_info": {
+        "blood_type": "O+",
+        "gender": "Male",
+        "allergies": ["apple", "banana"]
+      },
+      "languages": ["English", "Spanish"],
+      "education": [
+        {
+          "institution": "University of Example",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "date_started": "2018-09-01",
+          "date_completed": "2022-06-01"
+        },
+        {
+          "institution": "Example High School",
+          "degree": "High School Diploma",
+          "field_of_study": "General Studies",
+          "date_started": "2014-09-01",
+          "date_completed": "2018-06-01"
+        }
+      ],
+      "occupations": [
+        {
+          "company": "Tech Startups LLC",
+          "details": {
+            "job_title": "Junior Developer",
+            "employment_period": {
+              "beginning": "2022-01-15",
+              "completion": "2024-01-14"
+            }
+          }
+        },
+        {
+          "company": "Innovate Solutions Inc.",
+          "details": {
+            "job_title": "Intern",
+            "employment_period": {
+              "beginning": "2021-06-01",
+              "completion": "2021-12-31"
+            }
+          }
+        },
+        {
+          "company": "Self-Employed",
+          "details": {
+            "job_title": "Freelance Web Developer",
+            "employment_period": {
+              "beginning": "2020-03-01",
+              "completion": "2021-05-31"
+            }
+          }
+        }
+      ]
     }
   ]
 }
