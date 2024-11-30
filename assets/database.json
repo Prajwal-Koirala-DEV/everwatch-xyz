@@ -17,33 +17,9 @@
         "nationalities": ["American", "Canadian"]
       },
       "social_media": [
-        "https://facebook.com/johndoe",
-        "https://twitter.com/johndoe",
         "https://linkedin.com/in/johndoe",
-        "https://instagram.com/johndoe",
         "https://github.com/johndoe",
-        "https://gitlab.com/johndoe",
-        "https://bitbucket.org/johndoe",
-        "https://youtube.com/user/johndoe",
-        "https://tiktok.com/@johndoe",
-        "https://pinterest.com/johndoe",
-        "https://johndoe.tumblr.com",
-        "https://snapchat.com/add/johndoe",
-        "https://reddit.com/user/johndoe",
-        "https://quora.com/profile/John-Doe",
-        "https://vk.com/johndoe",
-        "https://flickr.com/photos/johndoe",
-        "https://medium.com/@johndoe",
-        "https://johndoe.wordpress.com",
-        "https://johndoe.blogspot.com",
-        "https://weibo.com/johndoe",
-        "https://mix.com/johndoe",
-        "https://discord.com/users/johndoe",
-        "https://johndoe.slack.com",
-        "https://steamcommunity.com/id/johndoe",
-        "https://twitch.tv/johndoe",
-        "https://yelp.com/user_details?userid=johndoe",
-        "https://johndoe.github.io"
+        "https://twitter.com/johndoe"
       ],
       "health_info": {
         "blood_type": "O+",
@@ -95,7 +71,67 @@
             "completion": "2021-05-31"
           }
         }
-      ]
+      ],
+      "banking_details": {
+        "bank_accounts": [
+          {
+            "Bank_Name": "Example Bank",
+            "account_type": "Checking",
+            "account_number": "1234567890",
+            "routing_number": "012345678"
+          },
+          {
+            "Bank_Name": "Second Example Bank",
+            "account_type": "Savings",
+            "account_number": "0987654321",
+            "routing_number": "987654321"
+          }
+        ],
+        "payment_cards": [
+          {
+            "type": "Credit Card",
+            "brand": "Chase",
+            "issuer": "Visa",
+            "card_number": "4111111111111111",
+            "expiration_date": "2025-12",
+            "cvv": "123"
+          },
+          {
+            "type": "Credit Card",
+            "brand": "Capital One",
+            "issuer": "MasterCard",
+            "card_number": "5500000000000004",
+            "expiration_date": "2026-06",
+            "cvv": "456"
+          },
+          {
+            "type": "Debit Card",
+            "brand": "Bank of America",
+            "issuer": "Visa",
+            "card_number": "4012888888881881",
+            "expiration_date": "2025-08",
+            "cvv": "789"
+          },
+          {
+            "type": "Debit Card",
+            "brand": "Wells Fargo",
+            "issuer": "MasterCard",
+            "card_number": "5105105105105100",
+            "expiration_date": "2024-11",
+            "cvv": "012"
+          }
+        ],
+        "digital_wallets": [
+          {
+            "service": "PayPal",
+            "email": "johndoe@paypal.com"
+          },
+          {
+            "service": "Venmo",
+            "username": "@JohnDoe"
+          }
+        ]
+      }
     }
   ]
 }
